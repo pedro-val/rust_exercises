@@ -1,11 +1,5 @@
 use std::io;
 
-// fn convert_to_int(input: String) -> i32 {
-//     let input: i32 = input.trim().parse::<i32>().unwrap();
-
-//     return input;
-// }
-
 fn convert_to_int(input: String) -> Result<i32, &'static str> {
     match input.trim().parse::<i32>() {
         Ok(val) => Ok(val),
