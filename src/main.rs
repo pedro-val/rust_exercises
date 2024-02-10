@@ -6,6 +6,7 @@ fn convert_to_int(input: String) -> i32 {
     return input;
 }
 
+
 fn main() {
     let mut soma: i32 = 0;
     let mut number: String = String::new();
