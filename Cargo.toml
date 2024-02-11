@@ -15,6 +15,10 @@ path = "src/mdc.rs"
 name = "fatorial"
 path = "src/fatorial.rs"
 
+[[bin]]
+name = "some"
+path = "src/some.rs"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
