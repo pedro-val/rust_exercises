@@ -7,12 +7,12 @@ fn convert_to_int(input: String) -> Result<i32, &'static str> {
     }
 }
 
+
 fn main() {
     loop {
         println!("Insira o número positivo para calcular o fatorial: ");
         let mut number: String = String::new();
         io::stdin().read_line(&mut number).expect("Erro ao ler a linha");
-
         match convert_to_int(number) {
             Ok(val) => {
                 if val <= 0 {
